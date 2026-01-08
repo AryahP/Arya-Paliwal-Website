@@ -87,7 +87,7 @@ export default function Home() {
                     at <span className="font-bold"> Princeton </span>
                     </li>
                      <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
-                     undergraduate researcher at PRISM (prism robotic intelligence and systems lab) under Prof. Druv Shah 
+                     undergraduate researcher at PRISM (Princeton Robotic Intelligence and Systems lab) under Prof. Druv Shah 
                     </li>
                     <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
                      interested in ML, agent systems, and low-level systems 
