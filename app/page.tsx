@@ -116,8 +116,8 @@ export default function Home() {
                 <div className="cursor-pointer text-black font-[family-name:var(--font-atkinson)] text-lg hover:text-blue-600 transition-colors flex items-start">
                   <span className="mr-2 flex-shrink-0 font-semibold">•</span>
                   <div className="flex-1">
-                    <span className="border-b border-gray-300 font-semibold">GreenTrip</span>
-                    <span className="font-normal ml-1 text-md">- generates optimized eco-friendly travel itineraries</span>
+                    <span className="border-b border-gray-300 font-semibold text-sm">GreenTrip</span>
+                    <span className="font-normal ml-1 text-sm">- generates optimized eco-friendly travel itineraries</span>
                   </div>
                 </div>
                 <div className="max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-300 ease-in-out">
@@ -142,8 +142,8 @@ export default function Home() {
                 <div className="cursor-pointer text-black font-[family-name:var(--font-atkinson)] text-lg hover:text-blue-600 transition-colors flex items-start">
                   <span className="mr-2 flex-shrink-0 font-semibold">•</span>
                   <div className="flex-1">
-                    <span className="border-b border-gray-300 font-semibold">HormoniQ</span>
-                    <span className="font-normal ml-1 text-md"> - predicting likelihood of PCOS given health parameters</span>
+                    <span className="border-b border-gray-300 font-semibold text-sm">HormoniQ</span>
+                    <span className="font-normal ml-1 text-sm"> - predicting likelihood of PCOS given health parameters</span>
                   </div>
                 </div>
                 <div className="max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-300 ease-in-out">
