@@ -228,7 +228,7 @@ export default function Home() {
                     linkedin: <a href="https://www.linkedin.com/in/aryah-paliwal" target="_blank" rel="noopener noreferrer" className="text-black font-semibold hover:underline">/in/aryah-paliwal</a>
                   </li>
                   <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointerDS">
-                    github: <a href="https://github.com/Aryah" target="_blank" rel="noopener noreferrer" className="text-black font-semibold hover:underline">@Aryah</a>
+                    github: <a href="https://github.com/AryahP" target="_blank" rel="noopener noreferrer" className="text-black font-semibold hover:underline">@Aryah</a>
                   </li>
                 </ul>
               </p>
