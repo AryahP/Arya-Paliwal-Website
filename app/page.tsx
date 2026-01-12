@@ -87,14 +87,12 @@ export default function Home() {
                     at <span className="font-bold"> Princeton </span>
                     </li>
                      <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
-                     undergraduate researcher at PRISM (Princeton Robotic Intelligence and Systems lab) under Prof. Druv Shah 
+                     undergraduate researcher at PRISM (Princeton Robotic Intelligence and Systems Lab) under Prof. Druv Shah 
                     </li>
                     <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
-                     interested in ML, agent systems, and low-level systems 
+                     interested in full-stack, ml, distributed systems
                     </li>
-                    <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
-                      currently working on agentgcal (will reveal soon!)
-                    </li>
+  
                     </ul>
               </p>
               <p className="text-black font-[family-name:var(--font-atkinson)]">
@@ -238,10 +236,7 @@ export default function Home() {
                 what i'm looking for
                 <ul className="list-disc ml-6 mt-1">
                   <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
-                    recently going down ai-agent rabbit holes
-                  </li>
-                  <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
-                    love working on ml, embedded systems, ai-agents and shipping products
+                    love being in fast-paced environments and shipping 
                   </li>
                 </ul>
               </p>
