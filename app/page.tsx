@@ -11,7 +11,7 @@ export default function Home() {
   <div className="flex items-center justify-center mt-20 text-2xl font-[family-name:var(--font-atkinson)]">Hi, I'm Arya Paliwal!</div>
    <div className="flex items-center justify-center bg-white-400">
       {/* Child Element (The Rectangle): Define its dimensions, color, and add a shadow for visual effect. */}
-      <div className="w-3/5 sm:w-sm md:w-md lg:w-lg xl:w-xl min-h-[175px] bg-blue-500 rounded-lg shadow-xl mt-5 bg-white border-2 border-black-600 pb-6">
+      <div className="w-11/12 sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-3/5 min-h-[250px] bg-blue-500 rounded-lg shadow-xl mt-5 bg-white border-2 border-black-600 pb-6">
         {/* Navigation buttons */}
         <div className="flex items-center justify-center gap-4 p-4 mt-5">
           <button 
@@ -28,6 +28,14 @@ export default function Home() {
             Projects
             <span className={`absolute left-1/2 -translate-x-1/2 bottom-0 h-[5px] bg-blue-600 transition-all duration-400 rounded-full ${
               activeTab === "project" ? "w-3/4" : "w-0 group-hover:w-3/4"
+            }`}></span>
+          </button>
+          <button 
+            onClick={() => setActiveTab("blog")}
+            className="relative px-5 py-2 text-black rounded-lg transition-colors font-[family-name:var(--font-atkinson)] group cursor-pointer">
+            Blogs
+            <span className={`absolute left-1/2 -translate-x-1/2 bottom-0 h-[5px] bg-blue-600 transition-all duration-400 rounded-full ${
+              activeTab === "blog" ? "w-3/4" : "w-0 group-hover:w-3/4"
             }`}></span>
           </button>
           <button 
@@ -90,7 +98,7 @@ export default function Home() {
                      undergraduate researcher at PRISM (Princeton Robotic Intelligence and Systems Lab) under Prof. Druv Shah 
                     </li>
                     <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
-                     interested in full-stack, ml, distributed systems
+                     working on reducing instruction ambiguity in Physical AI
                     </li>
   
                     </ul>
@@ -114,7 +122,7 @@ export default function Home() {
                 <div className="cursor-pointer text-black font-[family-name:var(--font-atkinson)] text-lg hover:text-blue-600 transition-colors flex items-start">
                   <span className="mr-2 flex-shrink-0 font-semibold">•</span>
                   <div className="flex-1">
-                    <span className="border-b border-gray-300 font-semibold text-sm">GreenTrip</span>
+                    <a href="https://github.com/andygcui/green-trip" target="_blank" rel="noopener noreferrer" className="border-b border-gray-300 font-semibold text-sm hover:underline">GreenTrip</a>
                     <span className="font-normal ml-1 text-sm">- generates optimized eco-friendly travel itineraries</span>
                   </div>
                 </div>
@@ -135,12 +143,22 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* MaoGame Project */}
+              <div className="group">
+                <div className="cursor-pointer text-black font-[family-name:var(--font-atkinson)] text-lg hover:text-blue-600 transition-colors flex items-start">
+                  <span className="mr-2 flex-shrink-0 font-semibold">•</span>
+                  <div className="flex-1">
+                    <a href="https://maogame.vercel.app/" target="_blank" rel="noopener noreferrer" className="border-b border-gray-300 font-semibold text-sm hover:underline">MaoGame</a>
+                    <span className="font-normal ml-1 text-sm">- Single player card game</span>
+                  </div>
+                </div>
+              </div>
               {/* HormoniQ Project */}
               <div className="group">
                 <div className="cursor-pointer text-black font-[family-name:var(--font-atkinson)] text-lg hover:text-blue-600 transition-colors flex items-start">
                   <span className="mr-2 flex-shrink-0 font-semibold">•</span>
                   <div className="flex-1">
-                    <span className="border-b border-gray-300 font-semibold text-sm">HormoniQ</span>
+                    <a href="https://github.com/AryahP/HormoniQ" target="_blank" rel="noopener noreferrer" className="border-b border-gray-300 font-semibold text-sm hover:underline">HormoniQ</a>
                     <span className="font-normal ml-1 text-sm"> - predicting likelihood of PCOS given health parameters</span>
                   </div>
                 </div>
@@ -165,8 +183,8 @@ export default function Home() {
                 <div className="cursor-pointer text-black font-[family-name:var(--font-atkinson)] text-lg hover:text-blue-600 transition-colors flex items-start">
                   <span className="mr-2 flex-shrink-0 font-semibold">•</span>
                   <div className="flex-1">
-                    <span className="border-b border-gray-300 font-semibold">PUNC (Princeton University Computer) </span>
-                    <span className="font-normal ml-1 text-md">- ece 206</span>
+                    <span className="border-b border-gray-300 font-semibold text-sm">PUNC (Princeton University Computer) </span>
+                    <span className="font-normal ml-1 text-sm">- ece 206</span>
                   </div>
                 </div>
                 <div className="max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-300 ease-in-out">
@@ -190,8 +208,8 @@ export default function Home() {
                 <div className="cursor-pointer text-black font-[family-name:var(--font-atkinson)] text-lg hover:text-blue-600 transition-colors flex items-start">
                   <span className="mr-2 flex-shrink-0 font-semibold">•</span>
                   <div className="flex-1">
-                    <span className="border-b border-gray-300 font-semibold">Simon Memory Game</span>
-                    <span className="font-normal ml-1 text-md">- ece 206</span>
+                    <span className="border-b border-gray-300 font-semibold text-sm">Simon Memory Game</span>
+                    <span className="font-normal ml-1 text-sm">- ece 206</span>
                   </div>
                 </div>
                 <div className="max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-300 ease-in-out">
@@ -211,6 +229,11 @@ export default function Home() {
             </div>
           )}
 
+          {activeTab === "blog" && (
+            <div className="ml-5 font-[family-name:var(--font-atkinson)]">
+              Blogs coming soon!
+            </div>
+          )}
           {activeTab === "contact" && (
             <>
               <p className="text-black font-[family-name:var(--font-atkinson)] ml-5">
