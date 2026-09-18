@@ -109,6 +109,9 @@ export default function Home() {
                     <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
                     swe at develop for good - Summer 2025 
                     </li>
+                    <li className="hover:bg-gray-100 p-2 rounded transition-colors cursor-pointer">
+                    undergrad researcher at PRISM - Summer 2026
+                    </li>
                     </ul>
               </p>
             </div>
